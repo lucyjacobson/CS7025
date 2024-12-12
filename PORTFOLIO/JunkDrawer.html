@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Junk Drawer</title>
+    <link rel="icon" href="ASSETS/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="junk-main-container">
+            <div class="junk-header-container">
+                <a href=Work.html> <img src="ASSETS/LUCYSLOGO.png" alt="Lucy Jacobson Product Designer" class="logo"> </a>
+                <nav class="nav-links">
+                    <a href="Work.html">Home</a>
+                    <a href="About.html">About</a>
+                    <a href="Contact.html">Contact</a>
+                    <a href="JunkDrawer.html">Junk Drawer</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="generator-container">
+        <h2>My Inspo Generator</h2>
+        <button onclick="generateNextImage()" class="generate-button">Generate</button>
+        <div class="image-container">
+            <img id="randomImage" src="ASSETS/IMAGE4.jpg" alt="Random image">
+        </div>
+    </div>
+    
+    <div class="color-picker">
+        <h2>Choose Your Favorite Color</h2>
+        <div class="color-buttons">
+            <button class="orangebutton" data-color="#F49527"></button>
+            <button class="pinkbutton" data-color="#EEB1D2"></button>
+            <button class="darkbluebutton" data-color="#3564E6"></button>
+            <button class="lightbluebutton" data-color="#90C4D9"></button>
+            <button class="redbutton" data-color="#F97755"></button>
+            <button class="yellowbutton" data-color="#E6C157"></button>
+            <button class="greenbutton" data-color="#93BBA0"></button>
+        </div>
+    </div>
+    
+    
+
+    <footer class="junk-footer">
+        <div class="junk-footer-content">
+            <p>©2024 by Lucy Jacobson</p>
+            <div class="contact-icons">
+                <a href="mailto:lucyjacobson11@gmail.com">
+                    <img src="ASSETS/EMAIL.png" alt="Email Icon">
+                </a>
+                <a href="https://www.instagram.com/jewcy_j_/">
+                    <img src="ASSETS/IG.png" alt="Instagram Icon">
+                </a>
+                <a href="https://www.linkedin.com/in/lucyjacobson/">
+                    <img src="ASSETS/LINKEDIN.png" alt="LinkedIn Icon">
+                </a>
+                <a href="https://www.pinterest.com/JewcyRoseJacobson/">
+                    <img src="ASSETS/PINTEREST.png" alt="Pinterest Icon">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
