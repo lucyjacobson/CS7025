@@ -1,0 +1,179 @@
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 120px !important;
+    background-color: #f2f2f2;
+    height: 111px;
+}
+
+.navbar-brand {
+    width: 153px;
+}
+
+.navbar ul {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 66px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.logout {
+    width: 153px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.logout a {
+    text-decoration: none;
+    color: #333;
+}
+
+.logout img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Footer Styles */
+.footer {
+    margin-top:150px;
+    background-color: #c4c4c4;
+    color: #0A142F;
+    font-size: 14px;
+}
+
+.footer-logo {
+    height: 40px;
+}
+
+.footer .col-md-6 .mb-4 {
+    font-size: 14pt;
+}
+
+.footer-link {
+    color: #212529;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-email {
+    font-family: 'Poppins';
+}
+
+.footer .col-md-4 .mb-2,
+.footer small {
+    opacity: 75%;
+}
+
+.footer-link:hover {
+    color: #4157E9;
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* Artist Overview */
+.artist-overview {
+    background-color: #F2F2F2;
+    padding: 0 120px;
+    text-align: center;
+    height: 300px;
+}
+
+.artist-overview img {
+    width: 150px;
+    height: 150px;
+}
+
+.artist-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.artist-overview h1 {
+    color: #4157E9;
+    font-size: 32px;
+    font-family: 'Sora', sans-serif;
+    margin-bottom: 45px;
+}
+
+.artist-info h2 {
+    color: #000000;
+    font-family: 'Sora', sans-serif;
+    font-size: 24px;
+}
+
+.artist-info p {
+    font-family: 'Sora', sans-serif;
+    font-size: 18px;
+    color: #000000;
+}
+
+.artist-info {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+/* Description Content */
+.description-content {
+    padding: 0 120px;
+    margin-top: 0;
+}
+
+.artist-description {
+    background-color: white;
+    margin-top: 10px;  
+}
+
+.description-content h2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    font-family: 'Sora', sans-serif;
+    padding-top: 100px;
+}
+
+.description-content p {
+    font-size: 16px;
+    color: #000000;
+    font-family: 'Sora', sans-serif;
+    margin-bottom: 60px;
+}
+
+.recent-posts {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.recent-posts .post {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    max-width: 300px;
+}
+
+.recent-posts .post img {
+    width: 100%;
+    height: auto;
+}
